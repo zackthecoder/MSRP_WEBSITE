@@ -1,0 +1,55 @@
+<html>
+    <body> 
+    <header>
+    <div class="nav-bar"></div> 
+    <link rel="stylesheet" href="css-mainpage.css">
+
+    <img src="logo.jpeg" alt="nav-bar" class="nav-bar">
+
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Gallery</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+        <title>Zach's MSRP Calculator</title>
+        <h1 class="msrp">Welcome to Zach's MSRP Calculator!</h1>
+        
+       <div class="first-paragraph"> Hi! My name is Zach and welcome to my MSRP calculator! Feel free to use our automated system to go ahead and find the MSRP of your dream car! Whether its from muscle to modern, we have all your needs. </div> <br>
+
+        <br>
+
+    <div class="first-question">
+  
+        <form action="homepage.html"  target="_self" > 
+            <h3>To get started, what's your name (first only)? </h3>
+            <br>
+            <input class="f-name" type="text" id="fname" name="fname" placeholder="Ex. Zach" >
+            <input class="submit-button" type="submit" class="submit-button" value="Submit">
+            <input class="reset-button" type="reset">   
+            
+            <br><br><br>
+
+            <h3><label for= "car-types">Next! Lets choose a car type!</label></h3>
+            <select name="car-types" class="car-option" onchange="location = this.value;" id="car-types">
+            <option  value="SELECT">Select</option> 
+            <option value="exotic.html">Exotic</option>
+            <option value="luxury.html">Luxury</option>
+            <option value="economic.html">Economic</option>
+            <option value="exotic.html">Casual</option>
+            </select>
+            
+            <br><br><br>
+        </form>
+    
+    </div> 
+
+
+    </body>
+    
+</html>

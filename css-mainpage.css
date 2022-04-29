@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tapestry&display=swap');
+  
+  
+  .msrp  {text-align:center;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: white;
+        border-radius:15px; }
+
+     .first-paragraph {text-align:center;
+          color: white;
+          font-family: 'Montserrat',sans-serif;
+          position: relative;
+          opacity: 1;
+          font-size:18px;
+     }
+    body {
+        background-image:url('cars.gif');
+        background-size:180%;
+        background-repeat: repeat-y;
+        background-attachment: fixed;
+        width:100%;
+        margin:0;
+        min-height: 100vh; 
+        
+    }
+    form{
+        color:black;
+        border-style: solid;
+        border-radius: 25px;
+        border-color:rgba(127, 90, 165, 0.2);
+        background-color: #a19315;
+        font-size:18px;
+        opacity:0.8;
+    }
+
+    .nav-bar{
+        width: 5%;
+        margin: 0px;
+
+        
+    }   
+    header{
+        background-color: #a19315;
+    }
+    header:after{
+        content: '';
+        display: table;
+        clear: both;
+        
+    }
+
+    .logo{
+        float:right;
+        padding:10px 0;
+        margin:0%;
+        
+    }
+    nav{
+        float:right;
+        margin-right: 25%;
+        padding:7.0px;
+    }
+    nav ul{
+        margin: 5px;
+        padding: 0;
+        list-style:none;
+        font-size:18px;
+    }
+    nav li{
+        display:inline-block;
+        margin-left: 100px;
+        padding-top: 20px;
+        width:fit-content;
+        position:relative;
+        text-align: center;
+        font-size:18px;
+    }
+    nav a {
+        color: rgb(3, 0, 0);
+        text-decoration: none;
+        text-transform: uppercase;
+       
+    }
+    nav a :hover{
+        color:#000;
+
+    }
+   
+    nav a:before{
+       content: '' ;
+       display: block;
+       height: 5px;
+       width:0%;
+       background-color: rgb(0, 0, 0);
+       position:absolute;
+       top:0;
+
+    transition: all ease-in-out 250ms;
+   }
+    nav a:hover::before{
+       width:100%;
+   }
+
+    .submit-button{
+       font-size: 17.5px;
+       font-family: 'Tapestry', cursive;
+   }
+
+    .reset-button{
+    font-size: 17.5px;
+    font-family: 'Tapestry', cursive;
+}
+    .f-name{
+    font-size: 21px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100px;
+}
+
+    h3{
+        font-size: 20px;
+        
+   
+    }
+
+    .car-option{
+        font-size: 18px;
+        font-family:'Times New Roman', Times, serif
+    }
